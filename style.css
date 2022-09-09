@@ -51,14 +51,14 @@ body {
   justify-content: center;
   padding: 40px 20px;
 }
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   width: 300px;
   color: White;
 }
-header h3 {
+.header h3 {
   font-size: 1.7em;
 }
 .toggle-bg {
@@ -191,7 +191,7 @@ header h3 {
 .theme-2 {
   background-color: var(--Light_gray);
 }
-.theme-2 header {
+.theme-2 .header {
   color: black;
 }
 .theme-2 .switch-field input:checked + label {
@@ -226,7 +226,7 @@ header h3 {
 .theme-3 {
   background-color: var(--Very_dark_violet1);
 }
-.theme-3 header {
+.theme-3 .header {
   color: var(--Light_yellow);
 }
 .theme-3 .switch-field input:checked + label {
@@ -262,7 +262,7 @@ header h3 {
   .container {
     width: 500px;
   }
-  header,
+  .header,
   .output,
   .input {
     width: 100%;
